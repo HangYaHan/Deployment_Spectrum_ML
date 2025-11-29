@@ -1,0 +1,14 @@
+# Runtime dependencies
+torch>=1.13.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+gpiozero>=1.6.2
+# RPi.GPIO is optional on development machine; on Raspberry Pi the system package may provide it
+RPi.GPIO>=0.7.0
+
+# Testing / development
+pytest>=7.0.0
+
+# Notes:
+# - Installing `torch` on Raspberry Pi may require a platform-specific wheel (see PyTorch docs or piwheels).
+# - If you plan to use pigpio backend for gpiozero, install `pigpio` and `python3-pigpio` on the Pi.

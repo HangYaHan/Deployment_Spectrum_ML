@@ -30,7 +30,7 @@ except Exception:
 
 
 # 默认 6 个 BCM 引脚
-DEFAULT_PINS: List[int] = [4, 17, 27, 22, 5, 6]
+DEFAULT_PINS: List[int] = [17, 18, 27, 22, 23, 24]
 
 
 class ButtonStats:
